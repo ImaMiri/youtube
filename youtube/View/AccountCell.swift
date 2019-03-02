@@ -10,4 +10,8 @@ import UIKit
 
 class AccountCell: FeedCell {
     
+    override func fetchVideos() {
+        
+    }
+    
 }

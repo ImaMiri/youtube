@@ -6,4 +6,15 @@
 //  Copyright © 2018 TechKube. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class Video: NSObject {
+    
+    var thumbnailImageName: String?
+    var title: String?
+    var numberOfViews: NSNumber?
+    var uploadDate: NSDate?
+    var duration: NSNumber?
+    
+    var channel: Channel?
+}

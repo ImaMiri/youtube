@@ -6,4 +6,11 @@
 //  Copyright © 2018 TechKube. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class Channel: NSObject {
+    
+    var name: String?
+    var profileImageName: String?
+    
+}

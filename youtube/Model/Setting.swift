@@ -6,4 +6,16 @@
 //  Copyright © 2018 TechKube. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class Setting: NSObject {
+    
+    let name: SettingName
+    let imageName: String
+    
+    init(name: SettingName, imageName: String) {
+        self.name = name
+        self.imageName = imageName
+    }
+    
+}
